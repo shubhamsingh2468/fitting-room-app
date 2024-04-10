@@ -12,7 +12,7 @@ export default function Home() {
 
       <h1 className="text-4xl font-bold mb-8">Get the perfect fit, from anywhere</h1>
       <p className="text-lg mb-4">Try on clothes virtually with our innovative app.</p>
-      <Link className='px-4 py-2 rounded-md bg-blue-500 text-white font-bold hover:bg-blue-700' href="/Capture">Start Scanning</Link>  // Or "Choose Your Model" if using pre-made models
+      <Link className='px-4 py-2 rounded-md bg-blue-500 text-white font-bold hover:bg-blue-700' href="/Capture">Start Scanning</Link>  
     </div>
   );
 }

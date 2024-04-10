@@ -3,7 +3,7 @@
 import Head from 'next/head';
 import { useState, useRef } from 'react';
 import Link from 'next/link'
-//import Preloader from '../components/Preloader';  // Optional loading indicator
+import Preloader from '../components/Preloader';  // Optional loading indicator
 
 export default function Capture() {
   const [photos, setPhotos] = useState([]);
